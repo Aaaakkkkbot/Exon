@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 from pyrogram.types import (InlineKeyboardMarkup, InlineKeyboardButton, Message)
 import httpx
 
-from Exon import Exon
+from Exon import dispatcher
 
 API_URL = 'https://sasta.tk/google_reverse'
 
